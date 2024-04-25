@@ -1,4 +1,4 @@
-package kr.ac.kopo.guestbook2024.Controller;
+package kr.ac.kopo.guestbook2024.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
