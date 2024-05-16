@@ -1,5 +1,6 @@
 package kr.ac.kopo.guestbook2024.repository;
 
+<<<<<<< HEAD
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import kr.ac.kopo.guestbook2024.entity.Guestbook;
@@ -11,6 +12,12 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+=======
+import kr.ac.kopo.guestbook2024.entity.Guestbook;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+>>>>>>> origin/master
 
 import java.util.Optional;
 import java.util.stream.IntStream;
@@ -47,6 +54,7 @@ public class GuestbookRepositoryTests {
             guestbookRepository.save(guestbook);
         }
     }
+<<<<<<< HEAD
 
     // 단일항목 검색만
     @Test
@@ -82,4 +90,6 @@ public class GuestbookRepositoryTests {
             System.out.println(guestbook);
         });
     }
+=======
+>>>>>>> origin/master
 }
